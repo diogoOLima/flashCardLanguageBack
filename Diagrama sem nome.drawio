@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T01:14:29.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.2" etag="hcwgQ4yiUH3OrAlVS88y" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T01:25:44.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5T1YRKK5_LttRHUkeo7-" version="21.1.2" type="github">
   <diagram name="Página-1" id="bE6Fvo_1s6O2spGPyKQI">
-    <mxGraphModel>
+    <mxGraphModel dx="1260" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="poc0Timh10X9BufrGROn-1" value="PERFIL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poc0Timh10X9BufrGROn-2" value="CD_USUARIO INT NOT NULL (PK)&lt;br&gt;NM_USUARIO VARCHAR(200) NOT NULL&lt;br&gt;DS_LOGIN VARCHAR(200) NOT NULL&lt;br&gt;DS_SENHA VARCHAR(200) NOT NULL" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="poc0Timh10X9BufrGROn-1">
+          <mxGeometry y="50" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="poc0Timh10X9BufrGROn-3" value="PERFIL" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poc0Timh10X9BufrGROn-4" value="CD_PERFIL INT NOT NULL (PK)&lt;br&gt;NM_PERFIL VARCHAR(200) NOT NULL&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="poc0Timh10X9BufrGROn-3">
+          <mxGeometry y="50" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="poc0Timh10X9BufrGROn-5" value="PERMISSOES" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="490" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poc0Timh10X9BufrGROn-6" value="CD_PERMISSAO INT NOT NULL (PK)&lt;br&gt;NM_PERMISSAO VARCHAR(200)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="poc0Timh10X9BufrGROn-5">
+          <mxGeometry y="50" width="215" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
